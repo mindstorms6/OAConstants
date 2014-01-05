@@ -11,4 +11,32 @@
 			<version>2.5.0</version>
 		</dependency>
 	</dependencies>
+	<packaging>jar</packaging>
+
+	<build>
+
+		<extensions>
+
+			<extension>
+				<groupId>org.springframework.build</groupId>
+				<artifactId>aws-maven</artifactId>
+				<version>4.4.0.RELEASE</version>
+			</extension>
+
+		</extensions>
+
+	</build>
+	
+	<distributionManagement>
+      <repository>
+          <id>s3.release</id>
+          <name>AWS Release Repository</name>
+          <url>s3://oa_lwa/release</url>
+      </repository>
+      <snapshotRepository>
+          <id>s3.snapshot</id>
+          <name>AWS Snapshot Repository</name>
+          <url>s3://oa_lwa/snapshot</url>
+      </snapshotRepository>
+  </distributionManagement>
 </project>
