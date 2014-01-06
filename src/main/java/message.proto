@@ -56,4 +56,5 @@ message SinglePBItem{
 	repeated KVType meta = 5;
 	optional string dl_type = 6;
 	optional string owningPBId = 7;
+	optional bytes torrentBytes = 8;
 }

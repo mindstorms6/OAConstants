@@ -31,11 +31,17 @@ public abstract class Utils {
 	    public static final String META_SIMPLE_URL_LOCATION_KEY = "URI";
 	    public static final String META_SIMPLE_URL_CAN_PLAY_DIRECT_KEY = "CAN_PLAY_DIRECT";
 
-
+	    
+	    public static final String META_YOUTUBE_URI_LOCATION_KEY = "YT_VID_URI";
+	    public static final String PB_TYPE_YOUTUBE = "youtube";
+	    
+	    public static final String META_URI_FOR_TORRENT = "tfile_location";
 
 	    public static final String BASE_TOPIC = "/home/breland/pi_audio/";
 
 	    public static final String WS_HOST = "http://oa.bdawg.org/";
+	    
+	    public static final String TORRENT_EXTENSION = ".torrent";
 	    
 
 	}
