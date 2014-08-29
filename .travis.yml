@@ -6,5 +6,4 @@ branches:
     - travis
 env:
   global:
-    secure: "ZFNp8XADHTv2MmI1fn0bfkS3e39SyA8tUDj/zyq9U8yCTYU4i+6zgxmfezs+o6u0zjEjWH0IgbKiVmXL9GW8nJ4jjlfCSW1dkSBj14H1mQFYkTwzE43UpnKp8nf2YdvxZ2Tw1Gnkn3Y3363lZSdWLQb5blReON6vWrtKbr/P3iw="
-    secure: "bQ8zhlTOsJyOYn77GW9AKqcPL8wX7mB1A0fZQ22keB1dgTxrkHb5veq6vd2uPxZGNEtzBmA1UsI0OZ4ElZEAFQCovkQ5fs8yQzSky1MB90jA83NOxyrEh9GlLessRSNAgSQngFBlo1ZoQxZUfuablWadEk4dScdfrCNouzV16w4="
+    secure: "X0zW3XODSarUnIrE8g9rcWyjwTbeec6xn0odeubBGUdl6BFsr0TWz/egGeYfNOKk5AANsYc1msh0IvI/UZjwNbMH+yUxF4lCKxUNonIaTJgDPnDV9ZcPnJruIjyN/MnD5DPl7FjxVwYgpDJUaDR79BHX1xSXQk58JoL27TOEtpU="
