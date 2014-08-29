@@ -4,6 +4,6 @@ branches:
     - travis
 env:
   global:
-    secure: "WaZOVG8OezaaQZqgim6dhEVMYeoKWuw6zD2wFVcZ4CKk6UfGBTNQcQMlHryxVeM9flt+uVVxoVasznC64lLyZylZeNzhlf3EnAPt5RI9KhpVtgWE4LZIn3WNYsR51wWukkX60L3nRjFXpjXbGz41gK7Gn56dr0MZn2p+qznGe+o="
-    secure: "OsNhtmq9WcdXJb7LUBNJ4FrcIDX0kFQJLqn5loJphzq+pFgM58uuO/6OC2n/92zwJmDjk3vpPgTTvY3qdLLflFlsaF8jRmYdPeg3wmsDjZ4wOiXfKPl/PBjQ1Yxy42DF8wFnbzz5912uzqgdk9nyQNs4lcJgjxHT+A3UJKhbp6g="
+    - secure: "WaZOVG8OezaaQZqgim6dhEVMYeoKWuw6zD2wFVcZ4CKk6UfGBTNQcQMlHryxVeM9flt+uVVxoVasznC64lLyZylZeNzhlf3EnAPt5RI9KhpVtgWE4LZIn3WNYsR51wWukkX60L3nRjFXpjXbGz41gK7Gn56dr0MZn2p+qznGe+o="
+    - secure: "OsNhtmq9WcdXJb7LUBNJ4FrcIDX0kFQJLqn5loJphzq+pFgM58uuO/6OC2n/92zwJmDjk3vpPgTTvY3qdLLflFlsaF8jRmYdPeg3wmsDjZ4wOiXfKPl/PBjQ1Yxy42DF8wFnbzz5912uzqgdk9nyQNs4lcJgjxHT+A3UJKhbp6g="
 script: "mvn deploy"
