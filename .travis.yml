@@ -1,9 +1,8 @@
-before_install: "git clone -b travis `git config --get remote.origin.url` target/travis"
-script: "mvn deploy --settings target/travis/settings.xml"
 language: java
 branches:
   except:
     - travis
 env:
+  - "AWS_ACCESS_KEY=AKIAIWKEFWYVYSZC6LGQ"
   global:
     secure: "OsNhtmq9WcdXJb7LUBNJ4FrcIDX0kFQJLqn5loJphzq+pFgM58uuO/6OC2n/92zwJmDjk3vpPgTTvY3qdLLflFlsaF8jRmYdPeg3wmsDjZ4wOiXfKPl/PBjQ1Yxy42DF8wFnbzz5912uzqgdk9nyQNs4lcJgjxHT+A3UJKhbp6g="
