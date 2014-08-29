@@ -2,13 +2,13 @@
   <servers>
     <server>
       <id>aws-release</id>
-      <username>>${env.CI_DEPLOY_USERNAME}</username>
-      <password>${env.CI_DEPLOY_PASSWORD}</password>
+      <username>AKIAIWKEFWYVYSZC6LGQ</username>
+      <password>${env.SECRET_KEY}</password>
     </server>
     <server>
       <id>aws-snapshot</id>
-      <username>>${env.CI_DEPLOY_USERNAME}</username>
-      <password>${env.CI_DEPLOY_PASSWORD}</password>
+      <username>AKIAIWKEFWYVYSZC6LGQ</username>
+      <password>${env.SECRET_KEY}</password>
     </server>
   </servers>
 </settings>
